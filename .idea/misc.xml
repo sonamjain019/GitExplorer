@@ -5,7 +5,14 @@
       <map>
         <entry key="app/src/main/res/drawable/app_icon.xml" value="0.183" />
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.183" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_repos.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_repository.xml" value="0.1983695652173913" />
+        <entry key="app/src/main/res/layout/item_repository.xml" value="0.1983695652173913" />
+        <entry key="app/src/main/res/layout/item_trending_repo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/repos_load_state_footer.xml" value="0.1983695652173913" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.183" />
       </map>
     </option>

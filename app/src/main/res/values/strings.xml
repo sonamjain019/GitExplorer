@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">GitExplorer</string>
     <string name="by_dawn">By Dawn</string>
+    <string name="repo_header">Repository library</string>
+    <string name="saved_repositories">Saved repositories</string>
+    <string name="search_results">%s results</string>
+    <string name="search_hint">Search for repository</string>
+    <string name="search_query">%s in:name</string>
+    <string name="no_results_found_header">A little empty</string>
+    <string name="no_results_found">Search for a repository and save it as favourite</string>
+    <string name="results_error">Something went wrong</string>
+    <string name="retry">Retry</string>
 </resources>
