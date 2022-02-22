@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable/app_icon.xml" value="0.183" />
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.183" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.183" />
       </map>
     </option>
