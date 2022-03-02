@@ -10,4 +10,8 @@
     <string name="no_results_found">Search for a repository and save it as favourite</string>
     <string name="results_error">Something went wrong</string>
     <string name="retry">Retry</string>
+    <string name="forks">Forks</string>
+    <string name="issues">Issues</string>
+    <string name="starred_by">Starred by</string>
+    <string name="last_release_version">Last release version</string>
 </resources>

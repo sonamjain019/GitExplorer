@@ -8,12 +8,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.ViewCompat
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.gitexplorer.data.model.Repo
 import com.gitexplorer.databinding.ItemRepositoryBinding
+import com.gitexplorer.ui.repository.ReposFragmentDirections
 
 class ReposAdapter: PagingDataAdapter<Repo, ReposAdapter.ViewHolder>(REPO_COMPARATOR) {
 
@@ -43,6 +46,11 @@ class ReposAdapter: PagingDataAdapter<Repo, ReposAdapter.ViewHolder>(REPO_COMPAR
 
     private fun createOnClickListener(binding : ItemRepositoryBinding, repo: Repo): View.OnClickListener {
         return View.OnClickListener {
+            val directions = ReposFragmentDirections.actionReposToDetails(repo)
+            val extras = FragmentNavigatorExtras(
+                binding.avatar to "avatar_${repo.id}")
+            it.findNavController().navigate(directions, extras)
+
         }
     }
 
